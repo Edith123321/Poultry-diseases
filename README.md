@@ -67,7 +67,7 @@ Three systematic approaches were implemented:
 - **Generalization**: Minimal gap between training and validation accuracy indicates good generalization
 - **Clinical relevance**: Confusion patterns align with real diagnostic challenges
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 ```bash
