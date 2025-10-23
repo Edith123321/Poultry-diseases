@@ -1,0 +1,9 @@
+experiment_id,model_type,image_size,batch_size,learning_rate,augmentation,train_accuracy,val_accuracy,test_accuracy,num_parameters,observations
+Exp1,Basic CNN,128,32,0.001,medium,0.9563382863998413,0.9551799893379211,0.9617927994121969,161604,Basic CNN with 128x128 input size. Final val accuracy: 0.9552
+Exp2,Basic CNN,150,32,0.001,medium,0.9627591371536255,0.9603232741355896,0.9603232916972814,161604,Basic CNN with 150x150 input size. Final val accuracy: 0.9603
+Exp3,Basic CNN,224,32,0.001,medium,0.9535865187644958,0.9382807016372681,0.9581190301249082,161604,Basic CNN with 224x224 input size. Final val accuracy: 0.9383
+Exp4,Simple_CNN,150,32,0.001,medium,0.9343239665031433,0.9037472605705261,0.9338721528288023,161604,"Simple_CNN architecture. Parameters: 161,604. Val accuracy: 0.9037"
+Exp5,Deeper_CNN,150,32,0.001,medium,0.9517519474029541,0.9603232741355896,0.9603232916972814,1413188,"Deeper_CNN architecture. Parameters: 1,413,188. Val accuracy: 0.9603"
+Exp6,Transfer_VGG16,150,32,0.0001,medium,0.8449825644493103,0.8934606909751892,0.8883174136664217,15111748,Transfer learning with VGG16. Frozen base model. Val accuracy: 0.8935
+Exp7,Transfer_ResNet50,150,32,0.0001,medium,0.6754723787307739,0.664217472076416,0.7347538574577517,24771204,Transfer learning with ResNet50. Frozen base model. Val accuracy: 0.6642
+Exp8,Transfer_EfficientNetB0,150,32,0.0001,medium,0.33993762731552124,0.25789859890937805,0.334313005143277,4839847,Transfer learning with EfficientNetB0. Frozen base model. Val accuracy: 0.2579
